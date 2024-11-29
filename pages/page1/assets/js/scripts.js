@@ -41,10 +41,18 @@ let cart = [];
 let cartCount = 0;
 
 function addToCart(productName, price) {
-    // Add product to cart
-    cart.push({ name: productName, price: price, quantity: 1 });
-    cartCount++;
+    // Check if product already exists in the cart
+    const existingProductIndex = cart.findIndex(item => item.name === productName);
 
+    if (existingProductIndex >= 0) {
+        // If product exists, increase quantity
+        cart[existingProductIndex].quantity += 1;
+    } else {
+        // If product doesn't exist, add new product to cart
+        cart.push({ name: productName, price: price, quantity: 1 });
+    }
+
+    cartCount++;
     // Update cart count in navigation
     document.getElementById('cart-count').innerText = cartCount;
 
@@ -69,9 +77,18 @@ function updateCartPopup() {
     cartItemsContainer.innerHTML = ''; // Clear previous cart items
     let total = 0;
 
-    cart.forEach(item => {
+    cart.forEach((item, index) => {
         const itemElement = document.createElement('div');
-        itemElement.innerText = `${item.name} - ₱${item.price} x ${item.quantity}`;
+        itemElement.classList.add('cart-item');
+        itemElement.innerHTML = `
+            <div>${item.name} - ₱${item.price}</div>
+            <div>
+                <button onclick="updateQuantity(${index}, -1)">-</button>
+                <span>${item.quantity}</span>
+                <button onclick="updateQuantity(${index}, 1)">+</button>
+                <button onclick="removeFromCart(${index})">Remove</button>
+            </div>
+        `;
         cartItemsContainer.appendChild(itemElement);
 
         total += item.price * item.quantity;
@@ -80,7 +97,29 @@ function updateCartPopup() {
     totalPriceElement.innerText = `Total: ₱${total}`;
 }
 
+function updateQuantity(index, change) {
+    if (cart[index].quantity + change <= 0) {
+        return; // Prevent quantity from going below 1
+    }
+    cart[index].quantity += change;
+    updateCartPopup(); // Re-render cart after update
+}
+
+function removeFromCart(index) {
+    cart.splice(index, 1); // Remove item from cart
+    cartCount--;
+    document.getElementById('cart-count').innerText = cartCount; // Update cart count
+    updateCartPopup(); // Re-render cart after removal
+}
+
 function checkout() {
     // Here you would implement your checkout process
     alert('Proceeding to checkout...');
+}
+
+
+
+
+function toggleMobileMenu() {
+    document.querySelector('.nav').classList.toggle('active');
 }

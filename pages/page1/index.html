@@ -18,16 +18,17 @@
                     <div class="dropdown-content">
                         <a href="../../index.html">Home</a>
                         <a href="./pages/page1/index.html">Shop</a>
-                        <a href="#">About</a>
-                        <a href="#">Contacts</a>
+                        <a href="../page2/index.html">About</a>
+                        <a href="../page3/index.html">Contacts</a>
                     </div>
                 </li>
             </ul>
-            <div class="cart-container">
-                <button class="cart-button" onclick="toggleCart()">Cart (<span id="cart-count">0</span>)</button>
-            </div>
+        </div>
+        <div class="cart-container">
+            <button class="cart-button" onclick="toggleCart()">Cart (<span id="cart-count">0</span>)</button>
         </div>
     </header>
+    
 </body>
 <main class="main-content">
     <div class="grid-container">
@@ -39,11 +40,11 @@
             <div class="product-details">
                 <h2>Acqua di Gio Profumo</h2>
                 <p class="description">
-                    An intense take on the classic Acqua di Gio, this fragrance combines fresh aquatic notes with incense and patchouli. It's bold, deep, and sophisticated, ideal for evening wear.
+                    A sophisticated aquatic scent with fresh bergamot, marine notes, and smoky incense. It blends elegance with depth, making it a timeless and refined fragrance for any occasion.
                 </p>
-                <p class="price">₱1120.00</p>
-                <button class="add-to-cart" onclick="addToCart('Acqua di Gio Profumo', 1120)">Add to Cart</button>
-                <button class="buy-now" onclick="buyNow('Acqua di Gio Profumo', 1120)">Buy Now</button>
+                <p class="price">₱6,250.00</p>
+                <button class="add-to-cart" onclick="addToCart('Acqua di Gio Profumo', 6250)">Add to Cart</button>
+                <button class="buy-now" onclick="buyNow('Acqua di Gio Profumo', 6250)">Buy Now</button>
             </div>
         </div>
         <div class="product-container">
@@ -51,17 +52,110 @@
                 <img src="./Assets/img/Bleu de Chanel (1).png" alt="Perfume Bottle" class="product-image">
             </a>
             <div class="product-details">
-                <h2>Acqua di Gio Profumo</h2>
+                <h2>Bleu de Chanel</h2>
                 <p class="description">
-                    An intense take on the classic Acqua di Gio, this fragrance combines fresh aquatic notes with incense and patchouli. It's bold, deep, and sophisticated, ideal for evening wear.
+                    A woody-aromatic fragrance with citrus, ginger, and cedar. Its fresh yet deep composition makes it versatile and perfect for the modern man who values sophistication and boldness.                </p>
+                <p class="price">₱6,500.00</p>
+                <button class="add-to-cart" onclick="addToCart('Bleu de Chanel', 6500)">Add to Cart</button>
+                <button class="buy-now" onclick="buyNow('Bleu de Chanel', 6500)">Buy Now</button>
+            </div>
+        </div>
+        <div class="product-container">
+            <a href="#">
+                <img src="./Assets/img/CreedAventus (1).png" alt="Perfume Bottle" class="product-image">
+            </a>
+            <div class="product-details">
+                <h2>Creed Aventus</h2>
+                <p class="description">
+                    A luxurious scent with pineapple, birch, and musk, evoking strength and success. It’s a bold, fruity-chypre fragrance that leaves a lasting impression and is ideal for confident individuals.
                 </p>
-                <p class="price">₱1420.00</p>
-                <button class="add-to-cart" onclick="addToCart('Acqua di Gio Profumo', 1420)">Add to Cart</button>
-                <button class="buy-now" onclick="buyNow('Acqua di Gio Profumo', 1420)">Buy Now</button>
+                <p class="price">₱22,000.00</p>
+                <button class="add-to-cart" onclick="addToCart('Creed Aventus', 22000)">Add to Cart</button>
+                <button class="buy-now" onclick="buyNow('Creed Aventus', 22000)">Buy Now</button>
+            </div>
+        </div>
+        <div class="product-container">
+            <a href="#">
+                <img src="./Assets/img/dior sauvage (1).png" alt="Perfume Bottle" class="product-image">
+            </a>
+            <div class="product-details">
+                <h2>Dior Sauvage</h2>
+                <p class="description">
+                    A fresh and rugged fragrance with bergamot, Sichuan pepper, and ambroxan. Its bold and raw composition makes it perfect for those who embrace adventure and intensity.                </p>
+                <p class="price">₱5000.00</p>
+                <button class="add-to-cart" onclick="addToCart('Dior Sauvage', 5000)">Add to Cart</button>
+                <button class="buy-now" onclick="buyNow('Dior Sauvage', 5000)">Buy Now</button>
+            </div>
+        </div>
+        <div class="product-container">
+            <a href="#">
+                <img src="./Assets/img/Jean Paul Gaultier Le Male Le Parfum (1).png" alt="Perfume Bottle" class="product-image">
+            </a>
+            <div class="product-details">
+                <h2>Jean Paul Gaultier</h2>
+                <p class="description">
+                    An intense oriental fragrance with cardamom, lavender, and vanilla. It’s a sensual scent for the confident man who wants a blend of freshness and warmth with a charismatic edge.                </p>
+                <p class="price">₱5500.00</p>
+                <button class="add-to-cart" onclick="addToCart('Jean Paul Gaultier', 5500)">Add to Cart</button>
+                <button class="buy-now" onclick="buyNow('Jean Paul Gaultier', 5500)">Buy Now</button>
+            </div>
+        </div>
+        <div class="product-container">
+            <a href="#">
+                <img src="./Assets/img/Paco Rabanne 1 Million (EDP) (1).png" alt="Perfume Bottle" class="product-image">
+            </a>
+            <div class="product-details">
+                <h2>Paco Rabanne 1 Million</h2>
+                <p class="description">
+                    A bold, spicy fragrance with cinnamon, rose, and a warm amber base. It’s a provocative scent that exudes luxury, perfect for those who want to make a statement.                </p>
+                <p class="price">₱4500.00</p>
+                <button class="add-to-cart" onclick="addToCart('Paco Rabanne 1 Million', 4500)">Add to Cart</button>
+                <button class="buy-now" onclick="buyNow('Paco Rabanne 1 Million', 4500)">Buy Now</button>
+            </div>
+        </div>
+        <div class="product-container">
+            <a href="#">
+                <img src="./Assets/img/Tom Ford Oud Wood (1).png" alt="Perfume Bottle" class="product-image">
+            </a>
+            <div class="product-details">
+                <h2>Tom Ford Oud Wood</h2>
+                <p class="description">
+                    A refined fragrance with oud, sandalwood, and cardamom. Smooth and smoky, it’s a sophisticated scent for those who appreciate depth and luxury without being overwhelming.
+                </p>
+                <p class="price">₱11000.00</p>
+                <button class="add-to-cart" onclick="addToCart('Tom Ford Oud Wood', 11000)">Add to Cart</button>
+                <button class="buy-now" onclick="buyNow('Tom Ford Oud Wood', 11000)">Buy Now</button>
+            </div>
+        </div>
+        <div class="product-container">
+            <a href="#">
+                <img src="./Assets/img/Versace Eros (EDP) (1).png" alt="Perfume Bottle" class="product-image">
+            </a>
+            <div class="product-details">
+                <h2>Versace Eros</h2>
+                <p class="description">
+                    A vibrant fragrance blending mint, tonka bean, and vanilla. It’s a passionate, sweet, and spicy scent, perfect for those who want to radiate confidence and allure.                </p>
+                <p class="price">₱4200.00</p>
+                <button class="add-to-cart" onclick="addToCart('Versace Eros', 4200)">Add to Cart</button>
+                <button class="buy-now" onclick="buyNow('Versace Eros', 4200)">Buy Now</button>
+            </div>
+        </div>
+        <div class="product-container">
+            <a href="#">
+                <img src="./Assets/img/Yves Saint Laurent Y (EDP) (1).png" alt="Perfume Bottle" class="product-image">
+            </a>
+            <div class="product-details">
+                <h2>Yves Saint Laurent</h2>
+                <p class="description">
+                    A fresh yet deep fragrance with apple, bergamot, and amberwood. It strikes a perfect balance of crispness and warmth, ideal for the contemporary man who seeks sophistication with intensity.                </p>
+                <p class="price">₱6000.00</p>
+                <button class="add-to-cart" onclick="addToCart('Yves Saint Laurent', 6000)">Add to Cart</button>
+                <button class="buy-now" onclick="buyNow('Yves Saint Laurent', 6000)">Buy Now</button>
             </div>
         </div>
         <!-- Repeat for other products -->
     </div>
+    
 </main>
 
 <!-- Cart Pop-up -->
@@ -75,8 +169,9 @@
     </div>
 </div>
 
+
 <footer class="footer">
-    <p>&copy; 2024 Perfume Co. All rights reserved.</p>
+    <p>&copy; 2024 Kaori Co. All rights reserved.</p>
 </footer>
 
 <script src="./assets/js/scripts.js"></script>
