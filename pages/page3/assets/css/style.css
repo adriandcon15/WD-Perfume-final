@@ -32,6 +32,7 @@ header:hover {
 .logo img {
     max-width: 100px;
     transition: transform 0.3s ease;
+    padding-left: 1.5rem;
 }
 
 .logo img:hover {
@@ -53,6 +54,7 @@ header:hover {
     width: 30px;
     height: 30px;
     transition: transform 0.3s ease;
+    margin-right: 1.5rem;
 }
 
 .nav ul li a img:hover {
@@ -202,9 +204,7 @@ footer a:hover {
     text-decoration: none;
 }
 
-/* Responsive Design */
 
-/* Small Devices (phones, max-width: 768px) */
 @media (max-width: 768px) {
     .contact-section {
         flex-direction: column;

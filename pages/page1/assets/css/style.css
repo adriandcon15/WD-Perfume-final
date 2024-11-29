@@ -1,5 +1,5 @@
 body, h1, p, ul, li, a {
-    margin: 0;
+    margin: 0rem;
     padding: 0;
     list-style: none;
     text-decoration: none;
@@ -33,6 +33,7 @@ header:hover {
     max-width: 100px;
     transition: transform 0.3s ease;
     object-fit: contain;
+    padding-left: 1.50rem;
 }
 
 .logo img:hover {
@@ -105,6 +106,7 @@ header:hover {
 .cart-container {
     display: flex;
     align-items: center;
+    padding-left: 1rem;
 }
 .cart-button {
     background-color: #191919;
@@ -222,7 +224,6 @@ body {
 .cart-container {
     display: flex;
     align-items: center;
-    padding-left: 1rem;
 }
 
 .cart-popup {
