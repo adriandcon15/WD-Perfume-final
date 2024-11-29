@@ -18,6 +18,8 @@
 
 <br />
 
+[![wakatime](https://wakatime.com/badge/user/3b948116-e0bc-4f93-9216-e63e7f7ff908/project/87e0ae56-8f65-49a2-8405-16cf8965c812.svg)](https://wakatime.com/badge/user/3b948116-e0bc-4f93-9216-e63e7f7ff908/project/87e0ae56-8f65-49a2-8405-16cf8965c812)
+
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
