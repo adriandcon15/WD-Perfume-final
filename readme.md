@@ -119,4 +119,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Kaori | Discover a world of captivating scents at Kaori. We offer a curated selection of premium perfumes that reflect your individuality and style. Explore, indulge, and find your signature fragrance today. | Kaori.com |
