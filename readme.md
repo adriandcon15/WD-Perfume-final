@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/adriandcon15/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/kaori logo.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/kaori logo.png" alt="Kaori" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">PerfumeFinals</h3>
