@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Discover the essence of elegance with our carefully curated selection of perfumes, blending timeless sophistication with contemporary allure.
 </div>
 
 <br />
@@ -62,10 +62,21 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+**What is the project**
+- A website dedicated to showcasing and selling a curated selection of perfumes, offering an immersive and user-friendly experience for fragrance enthusiasts.
+**Whats the purpose**
+- The primary goal is to provide an accessible platform where users can explore, learn about, and purchase perfumes. The website aims to educate customers on fragrance profiles, enhance their shopping experience, and build brand loyalty.
+**What are key components**
+- Product Catalog: Detailed listings of perfumes with descriptions, fragrance notes, and pricing.
+- Search and Filter: Tools to help users find perfumes based on preferences (e.g., scent families, brand, or occasion).
+- Educational Content: Blogs or guides about perfume selection, care, and usage.
+- User Reviews: Feedback and testimonials to build trust and guide other customers.
+- Secure Payment System: Options for safe online transactions.
+- Mobile Responsiveness: Ensures seamless browsing on any device.
+**What technology used and how it is used**
+- HTML: Structures the content and layout of the website, including the product catalog, cart, and navigation bar.
+- CSS: Enhances the visual design with hover effects for product images, creating a dynamic and engaging user interface.
+- Java: Powers the interactive elements, such as the "Add to Cart" functionality, navigation bar animations, and the ability to add or remove products from the cart seamlessly.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -119,4 +130,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Kaori | Discover a world of captivating scents at Kaori. We offer a curated selection of premium perfumes that reflect your individuality and style. Explore, indulge, and find your signature fragrance today. | Kaori.com |
+| Kaori | Discover a world of captivating scents at Kaori. We offer a curated selection of premium perfumes that reflect your individuality and style. Explore, indulge, and find your signature fragrance today. | [[Kaori.com](https://www.dior.com/en_int/beauty/fragrance/fragrance-homepage.html)] |
